@@ -1,3 +1,5 @@
+//Created by Pablo Ignacio Santillan
+
 String.prototype.style=function(code=4){
 const tx = this.toLowerCase();
 const abc="abcdefghijklmnopqrstuvwxyz";
