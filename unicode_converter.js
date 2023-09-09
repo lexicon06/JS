@@ -1,4 +1,4 @@
-String.prototype.style=function(code=6){
+String.prototype.style=function(code=3){
 const tx = this.toLowerCase();
 const abc="abcdefghijklmnopqrstuvwxyz";
 const unicode=["ΛBÇĐΣFĠĦĮJҚŁMИΘPQЯŞŦU√ШXYZ",
