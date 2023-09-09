@@ -8,4 +8,9 @@ unicode=["ΛBÇĐΣFĠĦĮJҚŁMИΘPQЯŞŦU√ШXYZ",
 "άвçđэƒģђıĵĸłмήǿρףяşтц√ώжγź",
 "ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ",
 "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ"];
-id=-1;while(id++<abc.length){ tx=tx.replace(eval("/"+abc[id]+"/gi"), unicode[code][id]);}return tx;}
+id=-1;
+  while(id++<abc.length){ 
+    tx=tx.replace(eval("/"+abc[id]+"/gi"), unicode[code][id]);
+  }
+  return tx;
+}
