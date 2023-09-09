@@ -8,9 +8,9 @@ const unicode=["ΛBÇĐΣFĠĦĮJҚŁMИΘPQЯŞŦU√ШXYZ",
 "άвçđэƒģђıĵĸłмήǿρףяşтц√ώжγź",
 "ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ",
 "ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ"];
-var id=-1;
+var id = -1;
    while(id++<abc.length){
-    tx=tx.replace(eval("/"+abc[id]+"/gi"), unicode[code][id]);
+    tx = tx.replace(eval("/"+abc[id]+"/gi"), unicode[code][id]);
   }
 return tx;
 }
